@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramesh Chandra - Accessibility Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <h1>Ramesh Chandra Uppalapati</h1>
+        <p>Accessibility Engineer with 3.5 years of experience</p>
+    </header>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" role="region" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>Dedicated Accessibility Engineer with over 3 years of experience in ensuring digital products are accessible to all users, including those with disabilities. Proficient in WCAG 2.1/2.2 guidelines, ADA, Section 508, ARIA 1.2, and assistive technologies such as JAWS, NVDA, and VoiceOver.
+                A strong advocate for inclusive design with a proven track record of improving accessibility in web and mobile applications. Adept at conducting thorough accessibility testing, providing actionable recommendations, and collaborating with cross-functional teams to enhance digital accessibility.
+            </p>
+        </section>
+        <section id="projects" role="region" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+            <ul>
+                <li>
+                    <h3>Accessible Web App</h3>
+                    <p>Description of the project.</p>
+                    <a href="https://github.com/rameshchandra/accessible-web-app" target="_blank">View on GitHub</a>
+                </li>
+                <li>
+                    <h3>WCAG Compliance Tool</h3>
+                    <p>Description of the project.</p>
+                    <a href="https://github.com/rameshchandra/wcag-compliance-tool" target="_blank">View on GitHub</a>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" role="region" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>Email: <a href="mailto:ramesh@example.com">rameshuppalapati4@gmail.com</a></p>
+        </section>
+        <section id="certifications" role="region" aria-labelledby="certifications-heading">
+            <h2 id="certifications-heading">Certifications</h2>
+            <ul>
+                <li>Web Accessibility Specialist (WAS)</li>
+                <li>Certified Professional in Web Accessibility (CPWA)</li>
+                <li>Accessibility Testing Professional (ATP)</li>
+            </ul>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <p>&copy; 2025 Ramesh Chandra</p>
+        <p>
+            <a href="https://www.linkedin.com/in/rameshchandra">LinkedIn</a>
+            <a href="https://github.com/rameshchandra">GitHub</a>
+        </p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
