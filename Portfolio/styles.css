@@ -65,9 +65,16 @@ nav ul li a {
     transition: background 0.3s, color 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
     background: #555;
     color: #fff;
+    outline: none; /* Remove default outline */
+}
+
+nav ul li a:focus {
+    outline: 2px solid #fff; /* Add custom focus outline */
+    outline-offset: 2px;
 }
 
 section {
@@ -109,6 +116,13 @@ footer a {
     transition: color 0.3s;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
     color: #ddd;
+    outline: none; /* Remove default outline */
+}
+
+footer a:focus {
+    outline: 2px solid #fff; /* Add custom focus outline */
+    outline-offset: 2px;
 }
